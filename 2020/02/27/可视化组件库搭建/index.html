@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 可视化组件库搭建 · 奔跑的骚年</title><meta name="description" content="可视化组件库搭建 - gujy"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/css/prontera.css"><link rel="search" type="application/opensearchdescription+xml" href="https://gu091120.github.io/atom.xml" title="奔跑的骚年"><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="奔跑的骚年" type="application/atom+xml">
+</head><body><header class="feature-header"><nav class="component-nav"><ul><div class="logo-container"><a href="/"><h2 class="title">奔跑的骚年</h2></a></div><a href="/" target="_self" class="li component-nav-item"><p>主页</p></a><a href="/archives/" target="_self" class="li component-nav-item"><p>归档</p></a><a href="/about/" target="_self" class="li component-nav-item"><p>关于我</p></a><ul class="shortcut-icons"><a href="https://github.com/gu091120" target="_blank"><img src="/images/github.svg" class="icon"></a><a href="/atom.xml" target="_blank"><img src="/images/rss.svg" class="icon"></a></ul></ul></nav></header><main class="container"><div id="post-container"><div class="post"><article class="post-block"><h1 class="post-title">可视化组件库搭建</h1><div class="post-info">2020年2月27日</div><div class="post-content"><img src="/2020/02/27/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%84%E4%BB%B6%E5%BA%93%E6%90%AD%E5%BB%BA/zuk_01.jpg" class="">
+
+<p>在前端工作也快5年了，断断续续写过几次博客，总是坚持不下，年前刚刚加入一家创业公司，正好有机会将自己的在前端工程化的一些想法在这里实践一下。<br>想通过博客的形式记录一下过程，也可以让其他朋友给其他朋友做出一些参考。</p>
+<h4 id="组件库搭建背景"><a href="#组件库搭建背景" class="headerlink" title="组件库搭建背景"></a>组件库搭建背景</h4><p>在熟悉公式原有的项目时候，发现几个问题：</p>
+<ul>
+<li>项目的组件库很多都是重复</li>
+<li>部分组件相当又肿（最多的一个文件里面有3000多行代码）</li>
+<li>基础组件和业务组件没有区分，甚至有的组件里都带有某个页面业务判断</li>
+<li>基本没有什么可读性，使用成本非常高<br>…</li>
+</ul>
+<p>基于以上问题，我提出搭建基础组件库的想法，也得到领导的认可，便着手开始规划搭建一个公司自己的组件库</p>
+<h4 id="搭建组件库需求分析"><a href="#搭建组件库需求分析" class="headerlink" title="搭建组件库需求分析"></a>搭建组件库需求分析</h4><p>我在搭建组件库先做了一些分析：</p>
+<ul>
+<li>只能在内网使用：因为公司对代码安全要求比较高</li>
+<li>能有预览和文档说明功能，因为很多重复组件出现，主要是因为要么没找到对应组件或者找到了不知道如何使用</li>
+<li>方便升级以及其他项目使用：因为目前我们组件都还在项目内部</li>
+<li>组件稳定性要强</li>
+</ul>
+<p>针对以上几个问题，我的方案是：</p>
+<ul>
+<li>搭建私有NPM库，解决内部使用以及多项目引用和统一升级</li>
+<li>使用<a href="https://storybook.js.org/" target="_blank" rel="noopener">storybook</a>来解决：开发和展示组件以及文档的说明。</li>
+<li>使用typescript和单元测提高代码稳定性</li>
+</ul>
+</div></article></div></div></main><footer class="footer-container"><div class="paginator"></div><div class="copyright"><p>© 2017 - 2020 <a href="https://gu091120.github.io">gujy</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/AngryPowman/hexo-theme-prontera" target="_blank">hexo-theme-prontera</a>.</p></div></footer></body></html>

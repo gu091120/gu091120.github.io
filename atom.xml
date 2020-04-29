@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gu091120.github.io/"/>
-  <updated>2020-04-27T14:40:49.000Z</updated>
+  <updated>2020-04-29T15:05:08.000Z</updated>
   <id>https://gu091120.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>我的前端工程化</title>
-    <link href="https://gu091120.github.io/2020/04/27/%E6%88%91%E7%9A%84%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/"/>
-    <id>https://gu091120.github.io/2020/04/27/%E6%88%91%E7%9A%84%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/</id>
-    <published>2020-04-27T14:16:53.000Z</published>
-    <updated>2020-04-27T14:40:49.000Z</updated>
+    <title>可视化组件库搭建</title>
+    <link href="https://gu091120.github.io/2020/02/27/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%84%E4%BB%B6%E5%BA%93%E6%90%AD%E5%BB%BA/"/>
+    <id>https://gu091120.github.io/2020/02/27/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%84%E4%BB%B6%E5%BA%93%E6%90%AD%E5%BB%BA/</id>
+    <published>2020-02-27T14:16:53.000Z</published>
+    <updated>2020-04-29T15:05:08.000Z</updated>
     
     <summary type="html">
     
@@ -29,8 +29,7 @@
       
         
         
-          &lt;p&gt;在前端工作也快5年了，断断续续写过几次博客，总是坚持不下，年前刚刚加入一家创业公司，正好有机会将自己的在前端工程化的一些想法在这里实践一下。&lt;br&gt;想通过博客的形式记录一下过程，也可以让其他朋友给其他朋友做出一些参考。&lt;/p&gt;
-
+          &lt;img src=&quot;/2020/02/27/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%84%E4%BB%B6%E5%BA%93%E6%90%AD%E5%BB%BA/zuk_01.jpg&quot;
         
       
     
